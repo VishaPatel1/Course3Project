@@ -1,5 +1,10 @@
 # Course 3 Project
 
+## Files Associated
+1. `README.md` has information on the files in this repository and how the script runs. 
+2. `CodeBook.md` gives an overview of the data in the final grouped data text file. 
+3. `run_analysis.R` is the script run to make the UCI HAR Dataset into a clean, tidy dataset. 
+
 ## Open up necessary packages
 1) dplyr: manipulate data
 ```
