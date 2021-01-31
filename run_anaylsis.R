@@ -38,3 +38,6 @@ names(select_data)<-gsub("gravity", "gravity", names(select_data), ignore.case =
 
 grouped <- select_data %>% group_by(subject, activity) %>% 
   summarise_all(funs(mean))
+
+write.table(grouped, file = "./groupeddata.txt",row.name=FALSE)
+
